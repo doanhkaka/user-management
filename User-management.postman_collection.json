@@ -1,0 +1,180 @@
+{
+	"id": "c2332d8b-8985-2098-7550-f93ad681715a",
+	"name": "App-Auth",
+	"description": "Test Api via Postman",
+	"order": [
+		"44bc1c9b-58e3-439a-f400-31ab84b33f5b",
+		"b9b55f01-77f8-8769-7cf2-cfcc149b474e",
+		"367c81d9-deca-974d-adaa-4856994b0774",
+		"42c39abf-f35e-12c1-a78c-108d060df67b"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1525705078035,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "367c81d9-deca-974d-adaa-4856994b0774",
+			"headers": "token_access: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to\n",
+			"headerData": [
+				{
+					"key": "token_access",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525796931881,
+			"name": "http://127.0.0.1:8000/api/v1/me",
+			"description": "",
+			"collectionId": "c2332d8b-8985-2098-7550-f93ad681715a",
+			"responses": []
+		},
+		{
+			"id": "42c39abf-f35e-12c1-a78c-108d060df67b",
+			"headers": "token_access: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to\n",
+			"headerData": [
+				{
+					"key": "token_access",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525796936281,
+			"name": "http://127.0.0.1:8000/api/v1/logout?token_acces=",
+			"description": "",
+			"collectionId": "c2332d8b-8985-2098-7550-f93ad681715a",
+			"responses": []
+		},
+		{
+			"id": "44bc1c9b-58e3-439a-f400-31ab84b33f5b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\ntoken_access: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "token_access",
+					"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjQsImlzcyI6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hcGkvdjEvbG9naW4iLCJpYXQiOjE1MjU3OTY5MjIsImV4cCI6MTUyNTgwMDUyMiwibmJmIjoxNTI1Nzk2OTIyLCJqdGkiOiJESUZ4bzNzbjMxVEtLemNOIn0.3s12EBWlV4XbBn3M4Satz4G2JVFY0WDgw4dENvlp5to",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/me",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Doanh Ka Ka 1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "262",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "Duy Tân - Cầu Giấy - Hà Nội",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tel",
+					"value": "09876543212",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525797527228,
+			"name": "http://127.0.0.1:8000/api/v1/login",
+			"description": "",
+			"collectionId": "c2332d8b-8985-2098-7550-f93ad681715a",
+			"responses": []
+		},
+		{
+			"id": "b9b55f01-77f8-8769-7cf2-cfcc149b474e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/v1/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "oznqeqkx9s@email.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "12345678",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1525796926160,
+			"name": "http://127.0.0.1:8000/api/v1/login",
+			"description": "",
+			"collectionId": "c2332d8b-8985-2098-7550-f93ad681715a",
+			"responses": []
+		}
+	]
+}
